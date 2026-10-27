@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "53258f4623aeaa732f0a19af6692bdec",
+    "packages": [
+        {
+            "name": "dmc3105/mini-laravel",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../minilaravel",
+                "reference": "26d17a1d30236dbfec1ae6b723a55ef3237ab1a8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MiniLaravel\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Alexey Govorov",
+                    "email": "algovor04@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

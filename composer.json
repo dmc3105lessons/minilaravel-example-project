@@ -1,0 +1,31 @@
+{
+    "name": "algov/minilaravel-example-project",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey Govorov",
+            "email": "algovor04@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../minilaravel"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.org",
+            "exclude": ["dmc3105/mini-laravel"]
+        }
+
+    ],
+    "require": {
+        "dmc3105/mini-laravel": "*"
+    }
+}
